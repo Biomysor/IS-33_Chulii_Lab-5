@@ -1,0 +1,56 @@
+.datepicker-container {
+    margin: 50px;
+    position: relative;
+    width: 200px;
+}
+
+#datepicker {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+}
+
+.datepicker-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datepicker-calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+
+.datepicker-calendar span {
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.datepicker-calendar span:hover {
+    background-color: #f0f0f0;
+}
+
+#cancelDate {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#cancelDate:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    cursor: pointer;
+}

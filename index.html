@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./kalendar.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Завдання №1</h1>
+        <label for="country">Виберіть країну:</label>
+        <select id="country">
+            <option value="Ukraine">Ukraine</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Germany">Germany</option>
+        </select>
+        <label for="price">Введіть ціну:</label>
+        <input type="number" id="price" placeholder="Введіть ціну продукту">
+    </div>
+    <div>
+        <h1>Завдання №2</h1>
+        <label for="quantity">Кількість дроїдів:</label>
+        <input type="number" id="quantity" placeholder="Введіть кількість">
+        <label for="pricePerDroid">Введіть ціну:</label>
+        <input type="number" id="pricePerDroid" placeholder="Введіть ціну продукту">
+        <label for="customerCredits">Введіть ціну:</label>
+        <input type="number" id="customerCredits" placeholder="Ваш баланс">
+    </div>
+    <div>
+        <h1>Завдання №3</h1>
+        <button id="arrayTask3">Виконати 3 завдання</button>
+    </div>
+    <div>
+        <h1>Завдання №4</h1>
+        <label for="Arr1"> Введіть кількість елементів:</label>
+        <input type="number" id="Arr1" placeholder="Введіть кількість елементів">
+    </div>
+    <h1>Завдання №5</h1>
+    <div class="datepicker-container">
+        <input type="text" id="dateInput" placeholder="Select a date" readonly>
+        <div id="datepicker" class="datepicker">
+            <div class="datepicker-header">
+                <button id="prevMonth">←</button>
+                <span id="monthYear"></span>
+                <button id="nextMonth">→</button>
+            </div>
+            <div class="datepicker-calendar"></div>
+            <button id="cancelDate" class="cancel-button">Cancel</button>
+        </div>
+    </div>
+    <script src="./Task1.js"></script>
+    <script src="./Task2.js"></script>
+    <script src="./Task3.js"></script>
+    <script src="./Task4.js"></script>
+    <script src="./Task5.js"></script>
+</body>
+</html>
